@@ -1,24 +1,27 @@
 body {
 	font-family: verdana;
-	margin: 0;
+	margin: 2%;
 	padding: 0;
 	width: 90%;
 }
 h3 {
 	text-transform: uppercase;
 }
+ul.one { text-align: left; float: left;
+margin: -2%;
+padding: 0;
+width: 100%;}
 
-ul {
-	margin: 0;
+ul.two { float: left;
+	margin: -2%;
 	padding: 0;
-	width: 90%;
+	width: 100%;
 }
 
-li {
+li { float: left;
 	margin: 0 1%;
 	padding: 10px;
-	width: 50%;
-	float: left;
+	width: 45%;
 	list-style: none;
 }
-
+h4.first{text-transform: uppercase;}
